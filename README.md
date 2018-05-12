@@ -29,7 +29,7 @@ github地址:https://github.com/TimoSaemann/caffe-segnet-cudnn5
   
   cd ORB_Segmenttation
   
-  ./bin/orb_segmentation models/segnet_pascal.prototxt models/segnet_pascal.caffemodel images/image_1.png images/image_2.png
+  ./bin/orb_segmentation model/segnet_pascal.prototxt model/segnet_pascal.caffemodel images/image_1.png images/image_2.png
   
 4,输出结果将保存在result/文件夹下
  
