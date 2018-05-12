@@ -14,6 +14,7 @@
 github地址:https://github.com/TimoSaemann/caffe-segnet-cudnn5
 
 2,编译
+  
   cd ORB_Segmenttation
 
   mkdir build
@@ -25,6 +26,7 @@ github地址:https://github.com/TimoSaemann/caffe-segnet-cudnn5
   make
   
 3,运行
+  
   cd ORB_Segmenttation
   
   ./bin/orb_segmentation models/segnet_pascal.prototxt models/segnet_pascal.caffemodel images/image_1.png images/image_2.png
